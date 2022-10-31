@@ -3,7 +3,7 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-int SumNumbersFromMtoN(int num1, int num2) 
+int SumNumbersFromMtoN(int num1, int num2)
 {
     int result = num2;
     if (num1 == num2) return result;
@@ -28,7 +28,7 @@ if (numberM > numberN)
     Console.Write($"Сумма натуральных элементов в промежутке от M до N: {sum}");
 }
 
-if (numberM == numberN)    
+if (numberM == numberN)
 {
     Console.Write($"Сумма натуральных элементов в промежутке от M до N: {numberM}");
 }
